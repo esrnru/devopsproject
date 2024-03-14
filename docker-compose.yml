@@ -2,6 +2,7 @@ version: "3.6"
 
 services:
  db:
+    container_name: db
     image: postgres:latest
     volumes:
       - postgres_data:/var/lib/postgresql/data/
@@ -9,7 +10,11 @@ services:
       - POSTGRES_PASSWORD=passw0rd
       - POSTGRES_USER=db_user
       - POSTGRES_DB=db_db
+    expose:
+      - 5432
+
  web:
+    container_name: app
     build:
      context: .
      dockerfile: Dockerfile
@@ -22,6 +27,7 @@ services:
       - db
 
  nginx:
+    container_name: nginx
     build: ./nginx
     ports:
       - 8080:80
