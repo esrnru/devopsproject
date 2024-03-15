@@ -39,3 +39,5 @@ To start preparing the development environment, the following commands need to b
 5. Execute the file `./setup.sh` or `bash setup.sh`
 
 After these steps, all required dependencies will be installed and containers will be up and running.
+
+To test the application, [http://localhost:8080](http://localhost:8080) can be visited in a web browser.
