@@ -14,7 +14,7 @@ To start preparing the development environment, the following commands need to b
    `chmod +x setup.sh`
 3. Open the file by using any text editor
    `vim setup.sh`
-4. Copy the following commands and paste them in **setup.sh**, then save and exit.
+4. Copy the following commands OR copy the commands in [setup.sh](./setup.sh) file, and paste them in **setup.sh**, then save and exit.
    ```
    #!/bin/bash
 
