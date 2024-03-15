@@ -1,6 +1,6 @@
 # PyEditorial Development Environment Setup
 ## About
-This repository provides scripts to automate the setup of a development environment (Ubuntu 22.04 LTS) for PyEditorial, an open-source Python/Django CMS, using Docker containers.
+This repository provides scripts to automate the setup of a development environment (Ubuntu 22.04 LTS) for [PyEditorial](https://github.com/mavenium/PyEditorial), an open-source Python/Django CMS, using Docker containers.
 
 ![Diagram](./diagram.png)
 ## Development Environment Setup
